@@ -24,8 +24,8 @@ spring:
         max-interval: 2000 # 2s
         multiplier: 1.1
   datasource:
-    username: user
-    password: password
+    username: postgres
+    password: 113113113
     url: jdbc:postgresql://localhost:5432/polardb_catalog
     hikari:
       connection-timeout: 2000 #ms
